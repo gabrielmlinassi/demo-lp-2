@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#18181B] font-AvenirNext;
+  }
+
+  p,
+  h1,
+  h2,
+  h5,
+  h6 {
+    @apply text-white;
+  }
+
+  p {
+    @apply text-sm md:text-xl;
+  }
+
+  h1,
+  h2,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-7xl;
+  }
+
+  h2 {
+    @apply text-2xl lg:text-5xl;
+  }
+
+  h5 {
+    @apply text-2xl;
+  }
+
+  h6 {
+    @apply text-xl;
+  }
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('/fonts/AvenirNext.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('/fonts/AvenirNextBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
