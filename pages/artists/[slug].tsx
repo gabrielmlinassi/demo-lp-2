@@ -1,3 +1,4 @@
+import ReactPlayer from 'react-player'
 import type {
   GetStaticPaths,
   GetStaticPropsContext,
@@ -8,7 +9,6 @@ import { ParsedUrlQuery } from 'querystring'
 import Image from 'next/image'
 import { MusicIcon } from 'components/Icons'
 import { Container } from 'components/Container'
-import { Video } from 'components/Video'
 import DemoData, { IArtist } from 'data'
 import { Layout } from 'components/Layout'
 import { FollowIcons } from 'components/FollowIcons'
@@ -77,10 +77,34 @@ const Artist: Page = ({ artist }) => {
               or non-characteristic words etc.
             </p>
           </div>
-          <div className="text-white md:min-w-[500px]">
-            <div className="text-2xl font-bold">Videos</div>
-            <Video src="/video.mp4" alt="Connor Elingtoneo - Video #1" />
-            <Video src="/video.mp4" alt="Connor Elingtoneo - Video #2" />
+          <div className="max-w-[650px] md:min-w-[550px]">
+            <h5>Videos</h5>
+            <div className="mt-6">
+              <div className="aspect-video">
+                <ReactPlayer
+                  url={'https://www.youtube.com/watch?v=ysz5S6PUM-U'}
+                  controls
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <span className="mt-3 inline-flex font-bold text-white">
+                Connor Elingtoneo - Video #1
+              </span>
+            </div>
+            <div className="mt-8">
+              <div className="aspect-video">
+                <ReactPlayer
+                  url={'https://vimeo.com/104778280'}
+                  controls
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <span className="mt-3 inline-flex font-bold text-white">
+                Connor Elingtoneo - Video #2
+              </span>
+            </div>
           </div>
         </div>
       </Container>
