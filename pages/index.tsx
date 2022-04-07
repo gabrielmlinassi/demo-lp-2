@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <Layout navFixed>
       <section className="relative h-[650px] md:h-[850px]">
-        <BgImage src="/singing-bg.png" backdrop priority />
+        <BgImage src="/images/singing-bg.png" backdrop priority />
         <div className="relative z-10 flex h-full items-center justify-center px-6">
           <div className="max-w-[930px] bg-black bg-opacity-50 px-6 py-12 text-center">
             <h1>A headline here</h1>
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             </TextBlock.Headline>
           </TextBlock>
         </Container>
-        <BgImage src="/studio-bg.jpeg" backdrop />
+        <BgImage src="/images/studio-bg.jpeg" backdrop />
       </section>
     </Layout>
   )

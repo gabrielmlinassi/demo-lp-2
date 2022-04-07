@@ -21,7 +21,7 @@ const About: NextPage = () => {
             </TextBlock.Headline>
           </TextBlock>
         </Container>
-        <BgImage src="/studio-bg.jpeg" backdrop priority />
+        <BgImage src="/images/studio-bg.jpeg" backdrop priority />
       </section>
       <Container>
         <ul className="flex flex-wrap gap-12 py-32 md:gap-6 lg:gap-12">

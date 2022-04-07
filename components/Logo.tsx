@@ -12,7 +12,7 @@ const Logo = ({ onBeforeRedirect }: LogoProps) => {
         onClick={onBeforeRedirect}
         className="relative h-16 w-32 cursor-pointer focus:outline-none md:h-24 md:w-44 md:px-20"
       >
-        <Image src="/logo.png" layout="fill" objectFit="contain" />
+        <Image src="/images/logo.png" layout="fill" objectFit="contain" />
       </a>
     </Link>
   )

@@ -46,7 +46,7 @@ const Respect: NextPage = () => {
   return (
     <Layout navFixed>
       <div className="relative h-[600px] md:h-[700px]">
-        <BgImage src="/soundboard-bg.jpeg" backdrop priority />
+        <BgImage src="/images/soundboard-bg.jpeg" backdrop priority />
         <div className="absolute left-0 right-0 top-1/2 z-20 -translate-y-1/2 text-white">
           <Container>
             <div className="text-2xl font-bold md:max-w-[75%] md:text-5xl md:leading-tight">
