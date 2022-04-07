@@ -16,7 +16,7 @@
   }
 
   p {
-    @apply text-sm md:text-xl;
+    @apply text-base md:text-lg;
   }
 
   h1,

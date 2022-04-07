@@ -17,11 +17,11 @@ const Home: NextPage = () => {
         <div className="relative z-10 flex h-full items-center justify-center px-6">
           <div className="max-w-[930px] bg-black bg-opacity-50 px-6 py-12 text-center">
             <h1>A headline here</h1>
-            <p className="mx-auto mt-2 text-opacity-70 sm:max-w-[75%]">
+            <span className="mx-auto mt-2 inline-block text-sm text-white text-opacity-70 sm:max-w-[75%] md:text-xl">
               Est sit aliqua dolor do amet sint. Velit officia consequat duis
               enim velit mollit. Exercitation veniam consequat sunt nostrud
               amet.
-            </p>
+            </span>
             <div className="mt-6">
               <LinkButton href="/artists">View all artists</LinkButton>
             </div>

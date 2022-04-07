@@ -60,12 +60,12 @@ const Respect: NextPage = () => {
         </div>
       </div>
       <Container>
-        <ul className="my-24 flex flex-wrap gap-x-4 gap-y-12">
+        <ul className="my-24 flex flex-wrap gap-x-8 gap-y-12">
           {data.map((o, idx) => (
-            <li key={idx}>
-              <div className="flex max-w-[600px] flex-col space-y-3 md:space-y-4">
+            <li key={idx} className="lg:w-[calc(50%-1rem)]">
+              <div className="space-y-3 md:space-y-4">
                 <h6>{o.title}</h6>
-                <p className="md:text-base">{o.description}</p>
+                <p>{o.description}</p>
                 {o.link && <ExternalLink href={o.link}>{o.link}</ExternalLink>}
               </div>
             </li>

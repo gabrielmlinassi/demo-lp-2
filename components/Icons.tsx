@@ -175,9 +175,10 @@ export const MusicIcon = (props: SVGProps<SVGSVGElement>) => {
   )
 }
 
-export const SpeakerIcon = () => {
+export const SpeakerIcon = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
+      {...props}
       width="24"
       height="24"
       viewBox="0 0 24 24"

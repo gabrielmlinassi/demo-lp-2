@@ -45,7 +45,7 @@ const Artist: Page = ({ artist }) => {
       <Container>
         <div className="my-20 flex flex-col gap-20 xl:flex-row">
           <div className="space-y-6">
-            <p className="text-base md:text-lg">
+            <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
@@ -55,11 +55,11 @@ const Artist: Page = ({ artist }) => {
               their default model text, and a search for 'lorem ipsum' will
               uncover many web sites still in their infancy.
             </p>
-            <p className="text-base md:text-lg">
+            <p>
               Various versions have evolved over the years, sometimes by
               accident, sometimes on purpose (injected humour and the like).
             </p>
-            <p className="text-base md:text-lg">
+            <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don't look even
@@ -67,7 +67,7 @@ const Artist: Page = ({ artist }) => {
               Ipsum, you need to be sure there isn't anything embarrassing
               hidden in the middle of text.
             </p>
-            <p className="text-base md:text-lg">
+            <p>
               All the Lorem Ipsum generators on the Internet tend to repeat
               predefined chunks as necessary, making this the first true
               generator on the Internet. It uses a dictionary of over 200 Latin

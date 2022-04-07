@@ -36,7 +36,7 @@ const About: NextPage = () => {
                 </div>
                 <div className="w-full">
                   <h5>{person.name}</h5>
-                  <p className="text-sm text-[#FAFAFA]">{person.role}</p>
+                  <span className="text-sm text-[#FAFAFA]">{person.role}</span>
                   <hr className="mt-2 h-[2px] w-full border-none bg-[#F00B8F]" />
                   <ExternalLink href={person.linkedin} className="mt-4">
                     Linkedin
