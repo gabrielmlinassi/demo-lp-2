@@ -51,4 +51,8 @@ const About: NextPage = () => {
   )
 }
 
+export const getStaticProps = () => {
+  return { props: { title: 'About - Round Hill Records' } }
+}
+
 export default About

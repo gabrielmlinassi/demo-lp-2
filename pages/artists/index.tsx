@@ -25,6 +25,7 @@ export const getStaticProps = () => {
 
   return {
     props: {
+      title: 'Artists - Round Hill Records',
       artists,
     },
   }

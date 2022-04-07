@@ -130,7 +130,7 @@ export const getStaticProps = ({ params }: GetStaticPropsContext) => {
     (artist) => artist.slug == slug
   ) as IArtist
 
-  return { props: { artist } }
+  return { props: { title: `${artist.name} - Round Hill Records`, artist } }
 }
 
 export default Artist

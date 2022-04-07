@@ -76,4 +76,8 @@ const Respect: NextPage = () => {
   )
 }
 
+export const getStaticProps = () => {
+  return { props: { title: 'Respect - Round Hill Records' } }
+}
+
 export default Respect

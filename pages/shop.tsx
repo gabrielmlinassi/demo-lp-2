@@ -14,4 +14,8 @@ const Shop: NextPage = () => {
   )
 }
 
+export const getStaticProps = () => {
+  return { props: { title: 'Shop - Round Hill Records' } }
+}
+
 export default Shop
